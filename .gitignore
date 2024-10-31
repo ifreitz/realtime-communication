@@ -1,0 +1,35 @@
+# .NET Core
+bin/
+obj/
+project.lock.json
+project.fragment.lock.json
+*.sln.ide
+*.user
+*.suo
+*.userprefs
+*.vs/
+.vscode/
+*.db
+*.db-journal
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+# Docker
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Environment Variables
+.env
